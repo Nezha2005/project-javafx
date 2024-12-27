@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
 
-
-<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
-   <children>
-      <VBox prefHeight="200.0" prefWidth="430.0" style="-fx-background-color: #219613;" />
-      <VBox prefHeight="200.0" prefWidth="430.0" />
-   </children>
-</HBox>
+<ScrollPane fitToHeight="true" fitToWidth="true" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MyController1">
+    <StackPane style="-fx-background-color: #d8e3e8;">
+        <VBox alignment="CENTER" maxHeight="448.0" maxWidth="600.0" prefWidth="530.0" spacing="20" style="-fx-background-color: white; -fx-padding: 20; -fx-border-color: lightgray; -fx-border-radius: 10; -fx-border-width: 2;">
+            <!-- Image avec coins arrondis -->
+            <StackPane>
+                <Rectangle arcHeight="20" arcWidth="20" height="306.0" styleClass="blue-rectangle" width="486.0" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Desktop/JavaFX%20Projets/jvfx/src/application/patient.jpeg" />
+               </image>
+            </ImageView>
+            </StackPane>
+         <Button mnemonicParsing="false" onAction="#singe" style="-fx-background-color: red;" text="espace patient" />
+        </VBox>
+    </StackPane>
+</ScrollPane>
