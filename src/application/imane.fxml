@@ -17,7 +17,7 @@
                <Image url="@../../../../../../Pictures/1.jpg" /> <!-- Remplacez par le chemin de votre image -->
                </image>
            </ImageView>
-            <Label style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Welcome !" />
+            <Label text="Welcome !" textFill="#3f5199" underline="true" />
             <TextField promptText="\@username" style="-fx-padding: 10; -fx-border-color: #ccc; -fx-background-radius: 5;" />
             <PasswordField promptText="Password" style="-fx-padding: 10; -fx-border-color: #ccc; -fx-background-radius: 5;" />
             <Button prefHeight="37.0" prefWidth="69.0" style="-fx-background-color: #4CAF50; -fx-text-fill: white; -fx-font-weight: bold; -fx-padding: 10;" text="LOGIN" />

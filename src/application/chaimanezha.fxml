@@ -7,20 +7,22 @@
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.shape.Rectangle?>
-
 <ScrollPane fitToHeight="true" fitToWidth="true" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MyController1">
     <StackPane style="-fx-background-color: #d8e3e8;">
-        <VBox alignment="CENTER" maxHeight="448.0" maxWidth="600.0" prefWidth="530.0" spacing="20" style="-fx-background-color: white; -fx-padding: 20; -fx-border-color: lightgray; -fx-border-radius: 10; -fx-border-width: 2;">
-            <!-- Image avec coins arrondis -->
-            <StackPane>
-                <Rectangle arcHeight="20" arcWidth="20" height="306.0" styleClass="blue-rectangle" width="486.0" />
-            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../../../../../Desktop/JavaFX%20Projets/jvfx/src/application/patient.jpeg" />
-               </image>
-            </ImageView>
+        <VBox alignment="CENTER" maxHeight="448.0" maxWidth="600.0" prefHeight="295.0" prefWidth="427.0" spacing="20" style="-fx-background-color: white; -fx-padding: 20; -fx-border-color: lightgray; -fx-border-radius: 10; -fx-border-width: 2;">
+            <!-- Image avec forme circulaire -->
+            <StackPane prefHeight="262.0" prefWidth="422.0">
+                <Circle centerX="211.0" centerY="105.5" radius="105.5" fill="#bac8cd" />
+                <ImageView fitHeight="211.0" fitWidth="211.0" pickOnBounds="true" preserveRatio="true">
+                    <clip>
+                        <Circle centerX="105.5" centerY="105.5" radius="105.5" />
+                    </clip>
+                    <image>
+                        <Image url="@patient.jpeg" />
+                    </image>
+                </ImageView>
             </StackPane>
-         <Button mnemonicParsing="false" onAction="#singe" style="-fx-background-color: red;" text="espace patient" />
+            <Button mnemonicParsing="false" onAction="#singe" style="-fx-background-color: medium grey;" text="espace patient" />
         </VBox>
     </StackPane>
 </ScrollPane>
