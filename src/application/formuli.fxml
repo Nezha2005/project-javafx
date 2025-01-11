@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="1400.0" pickOnBounds="true">
+         <image>
+            <Image url="@cab.jpg" />
+         </image>
+      </ImageView>
+      <StackPane opacity="0.6" prefHeight="414.0" prefWidth="370.0" style="-fx-background-color: #f2f6f7;">
+         <StackPane.margin>
+            <Insets left="220.0" right="220.0" />
+         </StackPane.margin>
+         <children>
+            <Circle accessibleText="cjv" fill="#3f98bc" opacity="0.61" radius="16.0" stroke="#61b4c1" strokeType="INSIDE" strokeWidth="2.0">
+               <StackPane.margin>
+                  <Insets bottom="320.0" right="350.0" />
+               </StackPane.margin>
+            </Circle>
+            <Circle accessibleText="cjv" fill="#3f98bc" layoutX="65.0" layoutY="150.0" opacity="0.61" radius="16.0" stroke="#61b4c1" strokeType="INSIDE" strokeWidth="2.0">
+               <StackPane.margin>
+                  <Insets bottom="320.0" left="350.0" />
+               </StackPane.margin>
+            </Circle>
+            <Label text="Informations personnelles" textFill="#2f6c75" underline="true">
+               <font>
+                  <Font name="Bodoni MT Bold Italic" size="17.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets bottom="320.0" />
+               </StackPane.margin>
+            </Label>
+            <TextField maxWidth="187.0" prefHeight="27.0" prefWidth="152.0" promptText="Entrez votre nom complet :">
+               <StackPane.margin>
+                  <Insets bottom="200.0" left="60.0" />
+               </StackPane.margin>
+            </TextField>
+         </children>
+      </StackPane>
+      <StackPane layoutX="230.0" layoutY="10.0" opacity="0.6" prefHeight="414.0" prefWidth="370.0" style="-fx-background-color: #f2f6f7;">
+         <children>
+            <Circle accessibleText="cjv" fill="#3f98bc" opacity="0.61" radius="16.0" stroke="#61b4c1" strokeType="INSIDE" strokeWidth="2.0">
+               <StackPane.margin>
+                  <Insets bottom="320.0" right="350.0" />
+               </StackPane.margin>
+            </Circle>
+            <Circle accessibleText="cjv" fill="#3f98bc" layoutX="65.0" layoutY="150.0" opacity="0.61" radius="16.0" stroke="#61b4c1" strokeType="INSIDE" strokeWidth="2.0">
+               <StackPane.margin>
+                  <Insets bottom="320.0" left="350.0" />
+               </StackPane.margin>
+            </Circle>
+            <Label text="Informations personnelles" textFill="#2f6c75" underline="true">
+               <font>
+                  <Font name="Bodoni MT Bold Italic" size="17.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets bottom="320.0" />
+               </StackPane.margin>
+            </Label>
+            <TextField maxWidth="187.0" prefHeight="27.0" prefWidth="152.0" promptText="Entrez votre nom complet :">
+               <StackPane.margin>
+                  <Insets bottom="200.0" left="60.0" />
+               </StackPane.margin>
+            </TextField>
+            <TextField maxWidth="175.0" prefHeight="25.0" prefWidth="175.0" promptText="Entrez votre numero de tel:">
+               <StackPane.margin>
+                  <Insets top="472.0" />
+               </StackPane.margin>
+            </TextField>
+         </children>
+      </StackPane>
+      <Label text="Formulaire d'Inscription" textAlignment="CENTER" textFill="#26778b" underline="true">
+         <StackPane.margin>
+            <Insets bottom="450.0" />
+         </StackPane.margin>
+         <font>
+            <Font name="Bodoni MT Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label text="Nom Complet :">
+         <StackPane.margin>
+            <Insets bottom="200.0" right="280.0" />
+         </StackPane.margin>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label text="Date de naissance :">
+         <StackPane.margin>
+            <Insets bottom="80.0" right="270.0" />
+         </StackPane.margin>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <DatePicker prefHeight="25.0" prefWidth="180.0" promptText="Choisissez votre date naissance :">
+         <StackPane.margin>
+            <Insets bottom="80.0" left="60.0" />
+         </StackPane.margin>
+      </DatePicker>
+      <Label text="Addresse : ">
+         <StackPane.margin>
+            <Insets right="290.0" top="40.0" />
+         </StackPane.margin>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField maxWidth="185.0" prefHeight="25.0" prefWidth="185.0" promptText="Entrez votre addresse :">
+         <StackPane.margin>
+            <Insets left="60.0" top="40.0" />
+         </StackPane.margin>
+      </TextField>
+      <Label text="Genre :">
+         <StackPane.margin>
+            <Insets right="310.0" top="155.0" />
+         </StackPane.margin>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <RadioButton mnemonicParsing="false" text="Femme ">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <StackPane.margin>
+            <Insets right="130.0" top="155.0" />
+         </StackPane.margin>
+      </RadioButton>
+      <RadioButton mnemonicParsing="false" text="Homme">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <StackPane.margin>
+            <Insets left="110.0" top="152.0" />
+         </StackPane.margin>
+      </RadioButton>
+      <Circle fill="#3f98bcc2" opacity="0.64" radius="17.0" stroke="#5ec4c8" strokeType="INSIDE">
+         <StackPane.margin>
+            <Insets right="330.0" top="280.0" />
+         </StackPane.margin>
+      </Circle>
+      <Label text="Mode d'envoi de votre mot de passe :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <StackPane.margin>
+            <Insets right="200.0" top="570.0" />
+         </StackPane.margin>
+      </Label>
+      <RadioButton mnemonicParsing="false" text="Par email">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <StackPane.margin>
+            <Insets left="160.0" top="571.0" />
+         </StackPane.margin>
+      </RadioButton>
+      <Circle fill="#3f98bcc2" layoutX="295.0" layoutY="450.0" opacity="0.64" radius="17.0" stroke="#5ec4c8" strokeType="INSIDE">
+         <StackPane.margin>
+            <Insets left="330.0" top="280.0" />
+         </StackPane.margin>
+      </Circle>
+      <TextField maxWidth="169.0" prefHeight="25.0" prefWidth="169.0" promptText="Entrez votre addresse email :">
+         <StackPane.margin>
+            <Insets top="380.0" />
+         </StackPane.margin>
+      </TextField>
+      <Label text="Addresse email : ">
+         <StackPane.margin>
+            <Insets right="300.0" top="380.0" />
+         </StackPane.margin>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label opacity="0.7" text="Informations de connexion " textFill="#2f6c75" underline="true">
+         <StackPane.margin>
+            <Insets top="280.0" />
+         </StackPane.margin>
+         <font>
+            <Font name="Bodoni MT Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="262.0" layoutY="492.0" text="Telephone :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <StackPane.margin>
+            <Insets right="320.0" top="475.0" />
+         </StackPane.margin>
+      </Label>
+      <RadioButton layoutX="483.0" layoutY="573.0" mnemonicParsing="false" text="Par SMS">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <StackPane.margin>
+            <Insets left="350.0" top="571.0" />
+         </StackPane.margin>
+      </RadioButton>
+   </children>
+</StackPane>
