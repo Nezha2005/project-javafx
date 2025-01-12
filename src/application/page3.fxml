@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="900.0" fitWidth="1500.0" pickOnBounds="true">
+         <image>
+            <Image url="@ppp.jpg" />
+         </image>
+         <StackPane.margin>
+            <Insets top="30.0" />
+         </StackPane.margin>
+      </ImageView>
+      <VBox fillWidth="false" opacity="0.56" prefHeight="900.0" prefWidth="210.0" style="-fx-background-color: #31809e;">
+         <StackPane.margin>
+            <Insets right="650.0" />
+         </StackPane.margin>
+         <children>
+            <ImageView fitHeight="94.0" fitWidth="93.0" pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets left="100.0" top="40.0" />
+               </VBox.margin>
+               <image>
+                  <Image url="@utili.jpg" />
+               </image>
+            </ImageView>
+            <Label prefHeight="27.0" prefWidth="184.0" text="Hassane Hajjane" textFill="WHITE" underline="true">
+               <VBox.margin>
+                  <Insets left="80.0" top="50.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Bodoni MT Bold" size="21.0" />
+               </font>
+            </Label>
+            <Button mnemonicParsing="false" prefHeight="36.0" prefWidth="134.0" style="-fx-border-color: #2b6a83; -fx-border-radius: 8px; -fx-border-width: 2px; -fx-background-color: #f0f0f0;" text="Profil" underline="true" wrapText="true">
+               <VBox.margin>
+                  <Insets left="60.0" right="50.0" top="70.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Bodoni MT Bold" size="17.0" />
+               </font>
+            </Button>
+            <Button layoutX="70.0" layoutY="280.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="134.0" style="-fx-border-color: #2b6a83; -fx-border-radius: 8px; -fx-border-width: 2px; -fx-background-color: #f0f0f0;" text="Consultations " underline="true" wrapText="true">
+               <font>
+                  <Font name="Bodoni MT Bold" size="17.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="60.0" right="50.0" top="40.0" />
+               </VBox.margin>
+            </Button>
+            <Button layoutX="10.0" layoutY="316.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="134.0" style="-fx-border-color: #2b6a83; -fx-border-radius: 8px; -fx-border-width: 2px; -fx-background-color: #f0f0f0;" text="Rendez-Vous" underline="true" wrapText="true">
+               <font>
+                  <Font name="Bodoni MT Bold" size="17.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="60.0" top="40.0" />
+               </VBox.margin>
+            </Button>
+            <Button layoutX="70.0" layoutY="442.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="205.0" style="-fx-border-color: #2b6a83; -fx-border-radius: 8px; -fx-border-width: 2px; -fx-background-color: #f0f0f0;" text="Mes docs Medicales" underline="true" wrapText="true">
+               <font>
+                  <Font name="Bodoni MT Bold" size="17.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="20.0" top="42.0" />
+               </VBox.margin>
+            </Button>
+            <Button layoutX="30.0" layoutY="520.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="205.0" style="-fx-border-color: #2b6a83; -fx-border-radius: 8px; -fx-border-width: 2px; -fx-background-color: #f0f0f0;" text="News " underline="true" wrapText="true">
+               <font>
+                  <Font name="Bodoni MT Bold" size="17.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="20.0" top="50.0" />
+               </VBox.margin>
+            </Button>
+            <Button layoutX="30.0" layoutY="613.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="205.0" style="-fx-border-color: #2b6a83; -fx-border-radius: 8px; -fx-border-width: 2px; -fx-background-color: #f0f0f0;" text="Notifications" underline="true" wrapText="true">
+               <font>
+                  <Font name="Bodoni MT Bold" size="17.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="20.0" top="50.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <Label text=" Profil " underline="true">
+         <StackPane.margin>
+            <Insets bottom="700.0" left="80.0" />
+         </StackPane.margin>
+         <font>
+            <Font name="Bodoni MT Bold" size="23.0" />
+         </font>
+      </Label>
+      <VBox maxWidth="493.0" opacity="0.7" prefHeight="900.0" prefWidth="384.0" style="-fx-background-color: #f0f0f0;">
+         <StackPane.margin>
+            <Insets left="87.0" />
+         </StackPane.margin>
+         <children>
+            <Label text="Nom Complet :" underline="true">
+               <VBox.margin>
+                  <Insets left="100.0" top="200.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Bodoni MT" size="19.0" />
+               </font>
+            </Label>
+            <Label prefHeight="17.0" prefWidth="89.0" text=" Hassan Hajane">
+               <VBox.margin>
+                  <Insets left="250.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Bodoni MT Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="100.0" layoutY="416.0" prefHeight="25.0" prefWidth="75.0" underline="true">
+               <font>
+                  <Font name="Bodoni MT" size="19.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="250.0" />
+               </VBox.margin>
+            </Label>
+            <Label layoutX="110.0" layoutY="200.0" text="date naissance :" underline="true">
+               <font>
+                  <Font name="Bodoni MT" size="19.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="92.0" top="40.0" />
+               </VBox.margin>
+            </Label>
+            <Label layoutX="260.0" layoutY="285.0" prefHeight="17.0" prefWidth="89.0" text="19/01/1976">
+               <font>
+                  <Font name="Bodoni MT Bold" size="12.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="250.0" />
+               </VBox.margin>
+            </Label>
+            <Label layoutX="102.0" layoutY="265.0" text="Addresse:" underline="true">
+               <font>
+                  <Font name="Bodoni MT" size="19.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="90.0" top="47.0" />
+               </VBox.margin>
+            </Label>
+            <Label layoutX="260.0" layoutY="392.0" prefHeight="17.0" prefWidth="123.0" text="agadir Dakhla 134">
+               <font>
+                  <Font name="Bodoni MT Bold" size="12.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="250.0" />
+               </VBox.margin>
+            </Label>
+            <Label layoutX="100.0" layoutY="337.0" text="Genre :" underline="true">
+               <font>
+                  <Font name="Bodoni MT" size="19.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="90.0" top="54.0" />
+               </VBox.margin>
+            </Label>
+            <Label layoutX="260.0" layoutY="481.0" prefHeight="17.0" prefWidth="123.0" text="Homme">
+               <font>
+                  <Font name="Bodoni MT Bold" size="12.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="230.0" />
+               </VBox.margin>
+            </Label>
+            <Label layoutX="10.0" layoutY="441.0" text="Email:" underline="true">
+               <font>
+                  <Font name="Bodoni MT" size="19.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="90.0" top="45.0" />
+               </VBox.margin>
+            </Label>
+            <Label layoutX="240.0" layoutY="577.0" prefHeight="17.0" prefWidth="123.0" text="Hassan123@gmail.com ">
+               <font>
+                  <Font name="Bodoni MT Bold" size="12.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="220.0" />
+               </VBox.margin>
+            </Label>
+            <Label layoutX="100.0" layoutY="639.0" text="Tel:" underline="true">
+               <font>
+                  <Font name="Bodoni MT" size="19.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="90.0" top="50.0" />
+               </VBox.margin>
+            </Label>
+            <Label layoutX="230.0" layoutY="664.0" prefHeight="17.0" prefWidth="123.0" text="067453298">
+               <font>
+                  <Font name="Bodoni MT Bold" size="12.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="220.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</StackPane>
