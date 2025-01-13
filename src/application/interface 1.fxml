@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="1280.0" pickOnBounds="true">
+         <image>
+            <Image url="@cab.jpg" />
+         </image>
+      </ImageView>
+      <VBox fillWidth="false" opacity="0.53" prefHeight="100.0" prefWidth="0.0" style="-fx-background-color: #2e7a89;">
+         <StackPane.margin>
+            <Insets bottom="200.0" left="400.0" right="400.0" top="200.0" />
+         </StackPane.margin>
+      </VBox>
+      <ImageView fitHeight="170.0" fitWidth="250.0" opacity="0.79" pickOnBounds="true">
+         <image>
+            <Image url="@p.jpg" />
+         </image>
+      </ImageView>
+      <Button mnemonicParsing="false" prefHeight="45.0" prefWidth="150.0" style="-fx-background-color: #ebf3f4; -fx-border-width: 2; -fx-border-color: #267e8b; -fx-border-radius: 10;" text="Espace Patient" underline="true">
+         <StackPane.margin>
+            <Insets top="265.0" />
+         </StackPane.margin>
+         <font>
+            <Font name="Bodoni MT Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</StackPane>
