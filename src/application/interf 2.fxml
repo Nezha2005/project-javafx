@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="1280.0" pickOnBounds="true">
+         <image>
+            <Image url="@ppp.jpg" />
+         </image>
+      </ImageView>
+      <HBox fillHeight="false" maxHeight="150.0" maxWidth="1280.0" opacity="0.35" prefHeight="150.0" prefWidth="1280.0" style="-fx-background-color: #1d808f;">
+         <StackPane.margin>
+            <Insets top="700.0" />
+         </StackPane.margin>
+      </HBox>
+      <StackPane maxHeight="700.0" maxWidth="400.0" opacity="0.56" prefHeight="637.0" prefWidth="448.0" style="-fx-background-color: #087d8d;">
+         <StackPane.margin>
+            <Insets bottom="100.0" right="800.0" />
+         </StackPane.margin>
+         <children>
+            <Label prefHeight="49.0" prefWidth="166.0" text="Consultations :" textFill="WHITE" underline="true">
+               <StackPane.margin>
+                  <Insets bottom="500.0" />
+               </StackPane.margin>
+               <font>
+                  <Font name="Bodoni MT Bold" size="27.0" />
+               </font>
+            </Label>
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="67.0" text="Retour" textFill="#0d7c88" underline="true">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets bottom="600.0" right="300.0" />
+               </StackPane.margin>
+            </Button>
+            <StackPane maxHeight="400.0" maxWidth="300.0" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #c2ebf0;" />
+            <Label prefHeight="25.0" prefWidth="123.0" text="Nom Complet :" textFill="#03707e" underline="true">
+               <StackPane.margin>
+                  <Insets bottom="300.0" right="150.0" top="60.0" />
+               </StackPane.margin>
+               <font>
+                  <Font name="Bodoni MT Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="139.0" layoutY="198.0" prefHeight="25.0" prefWidth="123.0" text="Profil :" underline="true">
+               <font>
+                  <Font name="Bodoni MT Bold" size="23.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets bottom="350.0" left="50.0" />
+               </StackPane.margin>
+            </Label>
+            <Label layoutX="114.0" layoutY="228.0" prefHeight="25.0" prefWidth="123.0" text="Mohamed XXX" textFill="#323839">
+               <font>
+                  <Font name="Bodoni MT Bold" size="17.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets bottom="170.0" left="80.0" />
+               </StackPane.margin>
+            </Label>
+            <Label layoutX="114.0" layoutY="228.0" prefHeight="25.0" prefWidth="123.0" text="Date Naissance :" textFill="#03707e" underline="true">
+               <font>
+                  <Font name="Bodoni MT Bold" size="17.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets bottom="40.0" right="150.0" />
+               </StackPane.margin>
+            </Label>
+            <Label layoutX="229.0" layoutY="263.0" prefHeight="25.0" prefWidth="123.0" text="14/01/1963" textFill="#323839">
+               <font>
+                  <Font name="Bodoni MT Bold" size="17.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets left="100.0" top="40.0" />
+               </StackPane.margin>
+            </Label>
+            <Label layoutX="114.0" layoutY="328.0" prefHeight="25.0" prefWidth="123.0" text="Gendre :" textFill="#03707e" underline="true">
+               <font>
+                  <Font name="Bodoni MT Bold" size="17.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets right="150.0" top="160.0" />
+               </StackPane.margin>
+            </Label>
+            <Label layoutX="239.0" layoutY="368.0" prefHeight="25.0" prefWidth="123.0" text="14/01/1963" textFill="#323839">
+               <font>
+                  <Font name="Bodoni MT Bold" size="17.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets left="90.0" top="250.0" />
+               </StackPane.margin>
+            </Label>
+            <ImageView fitHeight="90.0" fitWidth="108.0" pickOnBounds="true">
+               <StackPane.margin>
+                  <Insets bottom="600.0" left="250.0" />
+               </StackPane.margin>
+               <image>
+                  <Image url="@o.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </StackPane>
+      <StackPane maxHeight="727.0" maxWidth="496.0" opacity="0.74" prefHeight="700.0" prefWidth="289.0" style="-fx-background-color: #ffffff;">
+         <StackPane.margin>
+            <Insets bottom="100.0" left="400.0" />
+         </StackPane.margin>
+      </StackPane>
+      <Label text="Calendrier des consultations :" textFill="#0e7475" underline="true">
+         <font>
+            <Font name="Bodoni MT Bold" size="27.0" />
+         </font>
+         <StackPane.margin>
+            <Insets bottom="600.0" left="400.0" />
+         </StackPane.margin>
+      </Label>
+      <StackPane maxHeight="200.0" maxWidth="500.0" prefHeight="280.0" prefWidth="500.0" style="-fx-background-color: #0e7073;">
+         <StackPane.margin>
+            <Insets bottom="250.0" left="400.0" />
+         </StackPane.margin>
+         <children>
+            <Label text="Consultation : 03/11/2024" textFill="WHITE" underline="true">
+               <font>
+                  <Font name="Bodoni MT Bold" size="25.0" />
+               </font>
+            </Label>
+            <Button mnemonicParsing="false" opacity="0.93" style="-fx-background-color: #18878a; -fx-border-width: 3px; -fx-border-radius: 3; -fx-border-width: 3x; -fx-border-color: #ffffff;" text="Voir plus details :" textFill="WHITE">
+               <font>
+                  <Font name="Bodoni MT Bold" size="16.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets left="320.0" top="150.0" />
+               </StackPane.margin>
+            </Button>
+         </children>
+      </StackPane>
+      <StackPane layoutX="600.0" layoutY="185.0" maxHeight="200.0" maxWidth="500.0" prefHeight="280.0" prefWidth="500.0" style="-fx-background-color: #0e7073;">
+         <children>
+            <Label text="Consultation : 03/01/2025" textFill="WHITE" underline="true">
+               <font>
+                  <Font name="Bodoni MT Bold" size="25.0" />
+               </font>
+            </Label>
+            <Button mnemonicParsing="false" opacity="0.93" style="-fx-background-color: #18878a; -fx-border-width: 3px; -fx-border-radius: 3; -fx-border-width: 3x; -fx-border-color: #ffffff;" text="Voir plus details :" textFill="WHITE">
+               <font>
+                  <Font name="Bodoni MT Bold" size="16.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets left="320.0" top="150.0" />
+               </StackPane.margin>
+            </Button>
+         </children>
+         <StackPane.margin>
+            <Insets left="400.0" top="270.0" />
+         </StackPane.margin>
+      </StackPane>
+   </children>
+</StackPane>
