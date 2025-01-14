@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="1280.0" pickOnBounds="true">
+         <image>
+            <Image url="@cab.jpg" />
+         </image>
+      </ImageView>
+      <StackPane maxWidth="700.0" opacity="0.6" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #0f7c77;" />
+      <ImageView fitHeight="95.0" fitWidth="188.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@co.jpg" />
+         </image>
+         <StackPane.margin>
+            <Insets bottom="650.0" left="550.0" />
+         </StackPane.margin>
+      </ImageView>
+      <StackPane maxHeight="745.0" maxWidth="500.0" prefHeight="557.0" prefWidth="700.0" style="-fx-background-color: #fbfbfb;">
+         <StackPane.margin>
+            <Insets right="160.0" />
+         </StackPane.margin>
+         <children>
+            <Label prefHeight="27.0" prefWidth="245.0" text="Consultation : 03/11/2024" underline="true">
+               <font>
+                  <Font name="Bodoni MT Bold" size="22.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets bottom="600.0" />
+               </StackPane.margin>
+            </Label>
+            <Label layoutX="138.0" layoutY="69.0" prefHeight="27.0" prefWidth="136.0" text="Apparence générale :" underline="true">
+               <font>
+                  <Font name="Bodoni MT" size="14.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets bottom="460.0" right="299.0" />
+               </StackPane.margin>
+            </Label>
+            <TextArea maxHeight="200.0" maxWidth="500.0" prefHeight="200.0" prefWidth="325.0" text=" Le patient est en bon état général, alerte et coopératif.Système cardiovasculaire : Rythme cardiaque régulier, pas de souffle entendu à l'auscultation.Système respiratoire : RAS (rien à signaler).Abdomen : Sensibilité légère à la palpation dans la région épigastrique, sans défense ni douleur importante à la palpation profonde. Pas de masses palpables.Température : 36,8°C (normale).Autres examens : Pas de signes de déshydratation ou d'anomalies autres à l'examen physique." wrapText="true">
+               <StackPane.margin>
+                  <Insets bottom="200.0" />
+               </StackPane.margin>
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextArea>
+            <Label layoutX="43.0" layoutY="139.0" prefHeight="27.0" prefWidth="181.0" text="Hypothèses diagnostiques :" underline="true">
+               <font>
+                  <Font name="Bodoni MT" size="14.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets right="260.0" top="80.0" />
+               </StackPane.margin>
+            </Label>
+            <TextArea layoutX="10.0" layoutY="183.0" maxHeight="100.0" maxWidth="500.0" prefHeight="130.0" prefWidth="500.0" text="Hypothèses diagnostiques :Gastrite aiguë, exacerbée probablement par des facteurs alimentaires.Dyspepsie fonctionnelle." wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets top="250.0" />
+               </StackPane.margin>
+            </TextArea>
+            <Label layoutX="40.0" layoutY="409.0" prefHeight="27.0" prefWidth="181.0" text="Examen complémentaire :" underline="true">
+               <font>
+                  <Font name="Bodoni MT" size="14.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets right="230.0" top="400.0" />
+               </StackPane.margin>
+            </Label>
+            <TextArea layoutX="10.0" layoutY="458.0" maxHeight="100.0" maxWidth="500.0" prefHeight="130.0" prefWidth="500.0" text="Prescription d'une prise de sang pour évaluer les paramètres inflammatoires (CRP, hémogramme).Test rapide pour Helicobacter pylori (bactérie souvent impliquée dans la gastrite).Éventuellement, une échographie abdominale si les symptômes persistent ou s'aggraven" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets top="550.0" />
+               </StackPane.margin>
+            </TextArea>
+         </children>
+      </StackPane>
+   </children>
+</StackPane>
